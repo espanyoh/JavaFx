@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="420" prefWidth="620" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="0" layoutY="0" minHeight="420.0" minWidth="620.0" prefHeight="420.0" prefWidth="620.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Main">
+            <content>
+              <fx:include fx:id="downloadTabPage" source="../tab/download/DownloadTab.fxml" />
+            </content>
+          </Tab>
+          <Tab text="Configuration">
+            <content>
+              <fx:include fx:id="configurationTabPage" source="../tab/configuration/ConfigurationTab.fxml" />
+            </content>
+          </Tab>
+          <!-- <Tab text="Monitoring">
+            <content>
+              <fx:include fx:id="monitoringTabPage" source="../tab/monitoring/MonitoringTab.fxml" />
+            </content>
+          </Tab> -->
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

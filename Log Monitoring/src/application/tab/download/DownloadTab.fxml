@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="29.0" layoutY="27.0" minHeight="286.0" minWidth="425.0" prefHeight="345.0" prefWidth="550.0" style="-fx-border-width: 2; -fx-border-color: black;" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="29.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="27.0">
+         <effect>
+            <Blend opacity="0.0">
+               <topInput>
+                  <DropShadow />
+               </topInput>
+            </Blend>
+         </effect>
+         <children>
+            <Label layoutX="44.0" layoutY="33.0" text="Environment">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="44.0" layoutY="91.0" text="Method">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="44.0" layoutY="202.0" text="Download To">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <ComboBox layoutX="163.0" layoutY="32.0" prefWidth="150.0" />
+            <RadioButton layoutX="164.0" layoutY="90.0" mnemonicParsing="false" selected="true" text="Date">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="method" />
+               </toggleGroup></RadioButton>
+            <RadioButton layoutX="163.0" layoutY="143.0" mnemonicParsing="false" text="Time Stamp" toggleGroup="$method">
+               <font>
+                  <Font size="13.0" />
+               </font></RadioButton>
+            <TextField layoutX="281.0" layoutY="86.0" prefHeight="30.0" prefWidth="150.0" promptText="Date(MM/DD/YYYY)">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField layoutX="280.0" layoutY="139.0" prefHeight="30.0" prefWidth="216.0" promptText="Java Time Stamp ">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField layoutX="439.0" layoutY="86.0" prefHeight="30.0" prefWidth="58.0" promptText="Day(s)">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField layoutX="161.0" layoutY="196.0" prefHeight="30.0" prefWidth="337.0" promptText="Local Path">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Button layoutX="426.0" layoutY="298.0" mnemonicParsing="false" text="Download" />
+            <Button layoutX="335.0" layoutY="31.0" mnemonicParsing="false" text="Tail" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
