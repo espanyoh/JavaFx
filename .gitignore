@@ -4,3 +4,4 @@ Log Monitoring/target/classes/application/tab/download/DownloadTab.fxml
 Log Monitoring/target/classes/application/tab/configuration/ConfigurationTab.fxml
 Log Monitoring/target/classes/application/tab/monitoring/MonitoringTab.fxml
 Log Monitoring/target/classes/test/application.css
+Log Monitoring/target/classes/test/LogDisplay.fxml
