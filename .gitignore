@@ -2,3 +2,4 @@
 Log Monitoring/target/classes/application/main/Main.fxml
 Log Monitoring/target/classes/application/tab/download/DownloadTab.fxml
 Log Monitoring/target/classes/application/tab/configuration/ConfigurationTab.fxml
+Log Monitoring/target/classes/application/tab/monitoring/MonitoringTab.fxml
